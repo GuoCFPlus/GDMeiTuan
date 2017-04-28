@@ -9,9 +9,32 @@
 #ifndef Project_KEYHeader_h
 #define Project_KEYHeader_h
 
+//个人信息
+#define kNickName @"nickName"
+#define kUserHeader @"userHeader"
+#define kCompanyName @"companyName"
+#define kPhoneNum @"phoneNum"
+#define kEmail @"email"
+#define kPassword @"password"
+
+/**
+ 平铺布局
+ 
+ @param 0             x
+ @param 0             y
+ @param kScreenWidth  width
+ @param kScreenHeight height
+ 
+ @return CGRect kScreenCGRect
+ */
+#define kScreenCGRect CGRectMake(0, 0, kScreenWidth, kScreenHeight)
+
 //设备宽高
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//网页加载进度条高度
+#define kProgressBarHeight 2.f
 
 //列表Label（LL）上下间距（TB）、左右间距（LR）、宽度（W）
 #define kLLTB 0
@@ -66,32 +89,5 @@
 //返回按钮的宽高
 #define kBackIconWH 22
 
-//手势密码样式
-#define kDrawLineWidth 4
-//未选中的按钮的颜色
-#define kDrawBtnUnselectColor [UIColor colorWithRed:195/255.0 green:195/255.0 blue:195/255.0 alpha:0.5]
-//选中的按钮颜色
-#define kDrawBtnSelectColor kLLCol_T
-//正常的线条颜色
-#define kDrawLineRightColor kLLCol_T
-//错误的线条颜色
-#define kDrawLineWrongColor [UIColor redColor]
 
-//手势密码页Logo的CGRect
-//#define kLogoLR_G 50
-//#define kLogoWidth_G (kScreenWidth-kLogoLR_G*2)
-#define kLogoLR_G 30
-#define kLogoWidth_G 100
-#define kLogoHeight_G 76
-#define kLogoY_G (kScreenHeight-(kLogoHeight_G+kScreenWidth+kGap50+kWarnTB+kWarnHeight))/2
-//手势密码页背景图片
-#define kBgImg_G @"b-bg-gesture"
-//手势密码页Logo图片
-#define kLogoImg_G @"b-loginLogo"
-//手势密码警告背景图片
-#define kWarnBg @"b-g-warn"
-#define kWarnLR 30
-#define kWarnTB 20
-#define kWarnWidth (kScreenWidth-kWarnLR*2)
-#define kWarnHeight kLLH_T
 #endif

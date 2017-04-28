@@ -17,6 +17,19 @@
 		01657EFA1E568CDC00254BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01657EF81E568CDC00254BDC /* LaunchScreen.storyboard */; };
 		01657F051E568CDC00254BDC /* GDMeiTuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01657F041E568CDC00254BDC /* GDMeiTuanTests.m */; };
 		01657F101E568CDC00254BDC /* GDMeiTuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01657F0F1E568CDC00254BDC /* GDMeiTuanUITests.m */; };
+		016A44721E8F5956009D20FA /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44711E8F5956009D20FA /* MineModel.m */; };
+		016A44761E8F79B7009D20FA /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44751E8F79B7009D20FA /* UserInfo.m */; };
+		016A44781E8F79CE009D20FA /* sysBase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 016A44771E8F79CE009D20FA /* sysBase.plist */; };
+		016A447C1E8F7A20009D20FA /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A447A1E8F7A20009D20FA /* MineTableViewCell.m */; };
+		016A447D1E8F7A20009D20FA /* MineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016A447B1E8F7A20009D20FA /* MineTableViewCell.xib */; };
+		016A44811E8F7B01009D20FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44801E8F7B01009D20FA /* LoginViewController.m */; };
+		016A44881E8F7B0B009D20FA /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44841E8F7B0B009D20FA /* RSAEncryptor.m */; };
+		016A44891E8F7B0B009D20FA /* LoginAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44871E8F7B0B009D20FA /* LoginAccountTool.m */; };
+		016A44971E8F7B15009D20FA /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A448C1E8F7B15009D20FA /* NSString+Custom.m */; };
+		016A44981E8F7B15009D20FA /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A448E1E8F7B15009D20FA /* UIView+Custom.m */; };
+		016A44991E8F7B15009D20FA /* UIWebView+CancelShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44901E8F7B15009D20FA /* UIWebView+CancelShadow.m */; };
+		016A449A1E8F7B15009D20FA /* TextInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44931E8F7B15009D20FA /* TextInsetsLabel.m */; };
+		016A449B1E8F7B15009D20FA /* LoginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A44961E8F7B15009D20FA /* LoginBaseView.m */; };
 		01EBCEF31E5A95B400C40EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EBCECD1E5A95B400C40EE5 /* AppDelegate.m */; };
 		01EBCEF41E5A95B400C40EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01EBCECF1E5A95B400C40EE5 /* LaunchScreen.storyboard */; };
 		01EBCEF51E5A95B400C40EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01EBCED11E5A95B400C40EE5 /* Main.storyboard */; };
@@ -28,6 +41,7 @@
 		01EBCF0A1E5AC52E00C40EE5 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EBCF091E5AC52E00C40EE5 /* OrderViewController.m */; };
 		01EBCF0D1E5AC53F00C40EE5 /* WalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EBCF0C1E5AC53F00C40EE5 /* WalkViewController.m */; };
 		01EBCF0F1E5AD17300C40EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EBCF0E1E5AD17300C40EE5 /* Images.xcassets */; };
+		2F277405EA99D463D86BB9A8 /* libPods-GDMeiTuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11076EA4AA9FD293D1B22BAA /* libPods-GDMeiTuan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +80,31 @@
 		01657F0B1E568CDC00254BDC /* GDMeiTuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDMeiTuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01657F0F1E568CDC00254BDC /* GDMeiTuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDMeiTuanUITests.m; sourceTree = "<group>"; };
 		01657F111E568CDC00254BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016A44701E8F5956009D20FA /* MineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
+		016A44711E8F5956009D20FA /* MineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
+		016A44731E8F79B7009D20FA /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		016A44741E8F79B7009D20FA /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		016A44751E8F79B7009D20FA /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		016A44771E8F79CE009D20FA /* sysBase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sysBase.plist; sourceTree = "<group>"; };
+		016A44791E8F7A20009D20FA /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		016A447A1E8F7A20009D20FA /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		016A447B1E8F7A20009D20FA /* MineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineTableViewCell.xib; sourceTree = "<group>"; };
+		016A447F1E8F7B01009D20FA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		016A44801E8F7B01009D20FA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		016A44831E8F7B0B009D20FA /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		016A44841E8F7B0B009D20FA /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		016A44861E8F7B0B009D20FA /* LoginAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAccountTool.h; sourceTree = "<group>"; };
+		016A44871E8F7B0B009D20FA /* LoginAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAccountTool.m; sourceTree = "<group>"; };
+		016A448B1E8F7B15009D20FA /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		016A448C1E8F7B15009D20FA /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		016A448D1E8F7B15009D20FA /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		016A448E1E8F7B15009D20FA /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		016A448F1E8F7B15009D20FA /* UIWebView+CancelShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+CancelShadow.h"; sourceTree = "<group>"; };
+		016A44901E8F7B15009D20FA /* UIWebView+CancelShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+CancelShadow.m"; sourceTree = "<group>"; };
+		016A44921E8F7B15009D20FA /* TextInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInsetsLabel.h; sourceTree = "<group>"; };
+		016A44931E8F7B15009D20FA /* TextInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInsetsLabel.m; sourceTree = "<group>"; };
+		016A44951E8F7B15009D20FA /* LoginBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBaseView.h; sourceTree = "<group>"; };
+		016A44961E8F7B15009D20FA /* LoginBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBaseView.m; sourceTree = "<group>"; };
 		01EBCECC1E5A95B400C40EE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01EBCECD1E5A95B400C40EE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01EBCED01E5A95B400C40EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,6 +129,9 @@
 		01EBCF0B1E5AC53F00C40EE5 /* WalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkViewController.h; sourceTree = "<group>"; };
 		01EBCF0C1E5AC53F00C40EE5 /* WalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkViewController.m; sourceTree = "<group>"; };
 		01EBCF0E1E5AD17300C40EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11076EA4AA9FD293D1B22BAA /* libPods-GDMeiTuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDMeiTuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8001E5C14BBCA37F16BEAA5D /* Pods-GDMeiTuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMeiTuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDMeiTuan/Pods-GDMeiTuan.debug.xcconfig"; sourceTree = "<group>"; };
+		E22E91F025DE837841497FDF /* Pods-GDMeiTuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMeiTuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDMeiTuan/Pods-GDMeiTuan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F277405EA99D463D86BB9A8 /* libPods-GDMeiTuan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +167,8 @@
 				01657F031E568CDC00254BDC /* GDMeiTuanTests */,
 				01657F0E1E568CDC00254BDC /* GDMeiTuanUITests */,
 				01657EE81E568CDC00254BDC /* Products */,
+				018735394BB6270B79DB8DFB /* Pods */,
+				363607C450D9F4F0E3056A32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +229,73 @@
 			path = GDMeiTuanUITests;
 			sourceTree = "<group>";
 		};
+		016A447E1E8F7B01009D20FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				016A447F1E8F7B01009D20FA /* LoginViewController.h */,
+				016A44801E8F7B01009D20FA /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		016A44821E8F7B0B009D20FA /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				016A44831E8F7B0B009D20FA /* RSAEncryptor.h */,
+				016A44841E8F7B0B009D20FA /* RSAEncryptor.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		016A44851E8F7B0B009D20FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				016A44861E8F7B0B009D20FA /* LoginAccountTool.h */,
+				016A44871E8F7B0B009D20FA /* LoginAccountTool.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		016A448A1E8F7B15009D20FA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				016A448B1E8F7B15009D20FA /* NSString+Custom.h */,
+				016A448C1E8F7B15009D20FA /* NSString+Custom.m */,
+				016A448D1E8F7B15009D20FA /* UIView+Custom.h */,
+				016A448E1E8F7B15009D20FA /* UIView+Custom.m */,
+				016A448F1E8F7B15009D20FA /* UIWebView+CancelShadow.h */,
+				016A44901E8F7B15009D20FA /* UIWebView+CancelShadow.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		016A44911E8F7B15009D20FA /* Inherit */ = {
+			isa = PBXGroup;
+			children = (
+				016A44921E8F7B15009D20FA /* TextInsetsLabel.h */,
+				016A44931E8F7B15009D20FA /* TextInsetsLabel.m */,
+			);
+			path = Inherit;
+			sourceTree = "<group>";
+		};
+		016A44941E8F7B15009D20FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				016A44951E8F7B15009D20FA /* LoginBaseView.h */,
+				016A44961E8F7B15009D20FA /* LoginBaseView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		018735394BB6270B79DB8DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8001E5C14BBCA37F16BEAA5D /* Pods-GDMeiTuan.debug.xcconfig */,
+				E22E91F025DE837841497FDF /* Pods-GDMeiTuan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		01EBCECB1E5A95B400C40EE5 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +317,9 @@
 		01EBCED31E5A95B400C40EE5 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				016A44731E8F79B7009D20FA /* Singleton.h */,
+				016A44741E8F79B7009D20FA /* UserInfo.h */,
+				016A44751E8F79B7009D20FA /* UserInfo.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -300,6 +415,8 @@
 		01EBCEDD1E5A95B400C40EE5 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				016A44701E8F5956009D20FA /* MineModel.h */,
+				016A44711E8F5956009D20FA /* MineModel.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -353,6 +470,9 @@
 		01EBCEE31E5A95B400C40EE5 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				016A44791E8F7A20009D20FA /* MineTableViewCell.h */,
+				016A447A1E8F7A20009D20FA /* MineTableViewCell.m */,
+				016A447B1E8F7A20009D20FA /* MineTableViewCell.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -391,6 +511,7 @@
 		01EBCEE81E5A95B400C40EE5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				016A447E1E8F7B01009D20FA /* Login */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -398,6 +519,8 @@
 		01EBCEE91E5A95B400C40EE5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				016A44821E8F7B0B009D20FA /* Encrypt */,
+				016A44851E8F7B0B009D20FA /* Login */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -405,6 +528,9 @@
 		01EBCEEA1E5A95B400C40EE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				016A448A1E8F7B15009D20FA /* Category */,
+				016A44911E8F7B15009D20FA /* Inherit */,
+				016A44941E8F7B15009D20FA /* Login */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -424,6 +550,7 @@
 		01EBCEF11E5A95B400C40EE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				016A44771E8F79CE009D20FA /* sysBase.plist */,
 				012F7B7C1E5EB318002AA8C6 /* menuData.plist */,
 			);
 			path = Resources;
@@ -461,6 +588,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		363607C450D9F4F0E3056A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11076EA4AA9FD293D1B22BAA /* libPods-GDMeiTuan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,9 +603,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01657F141E568CDC00254BDC /* Build configuration list for PBXNativeTarget "GDMeiTuan" */;
 			buildPhases = (
+				F6B57974F56AAEF404F2D6F8 /* [CP] Check Pods Manifest.lock */,
 				01657EE31E568CDB00254BDC /* Sources */,
 				01657EE41E568CDB00254BDC /* Frameworks */,
 				01657EE51E568CDB00254BDC /* Resources */,
+				3091D419A0FD6A8E16CF1EBD /* [CP] Embed Pods Frameworks */,
+				6ABD0545397621EA6AF02BC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -572,10 +710,12 @@
 			files = (
 				01657EFA1E568CDC00254BDC /* LaunchScreen.storyboard in Resources */,
 				012F7B821E5EECCC002AA8C6 /* HomeTypeCollectionViewCell.xib in Resources */,
+				016A447D1E8F7A20009D20FA /* MineTableViewCell.xib in Resources */,
 				01EBCEF51E5A95B400C40EE5 /* Main.storyboard in Resources */,
 				01EBCEF41E5A95B400C40EE5 /* LaunchScreen.storyboard in Resources */,
 				01EBCF0F1E5AD17300C40EE5 /* Images.xcassets in Resources */,
 				01657EF71E568CDC00254BDC /* Assets.xcassets in Resources */,
+				016A44781E8F79CE009D20FA /* sysBase.plist in Resources */,
 				01657EF51E568CDC00254BDC /* Main.storyboard in Resources */,
 				012F7B7D1E5EB318002AA8C6 /* menuData.plist in Resources */,
 			);
@@ -597,22 +737,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3091D419A0FD6A8E16CF1EBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMeiTuan/Pods-GDMeiTuan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABD0545397621EA6AF02BC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMeiTuan/Pods-GDMeiTuan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B57974F56AAEF404F2D6F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01657EE31E568CDB00254BDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016A44981E8F7B15009D20FA /* UIView+Custom.m in Sources */,
+				016A44971E8F7B15009D20FA /* NSString+Custom.m in Sources */,
 				012F7B811E5EECCC002AA8C6 /* HomeTypeCollectionViewCell.m in Sources */,
 				0101B6451E5D2C6B00EEEF92 /* HomeTypeTableViewCell.m in Sources */,
 				01EBCF071E5AC51B00C40EE5 /* NearViewController.m in Sources */,
+				016A449B1E8F7B15009D20FA /* LoginBaseView.m in Sources */,
+				016A44891E8F7B0B009D20FA /* LoginAccountTool.m in Sources */,
 				01EBCEF31E5A95B400C40EE5 /* AppDelegate.m in Sources */,
+				016A447C1E8F7A20009D20FA /* MineTableViewCell.m in Sources */,
+				016A44881E8F7B0B009D20FA /* RSAEncryptor.m in Sources */,
 				01EBCEFB1E5AC30800C40EE5 /* MainNavController.m in Sources */,
 				01EBCF0A1E5AC52E00C40EE5 /* OrderViewController.m in Sources */,
+				016A449A1E8F7B15009D20FA /* TextInsetsLabel.m in Sources */,
+				016A44761E8F79B7009D20FA /* UserInfo.m in Sources */,
 				01EBCF0D1E5AC53F00C40EE5 /* WalkViewController.m in Sources */,
 				01EBCEFC1E5AC30800C40EE5 /* MainTabBarController.m in Sources */,
 				01EBCF041E5AC50400C40EE5 /* MineViewController.m in Sources */,
 				01EBCF011E5AC4F100C40EE5 /* HomeViewController.m in Sources */,
+				016A44721E8F5956009D20FA /* MineModel.m in Sources */,
+				016A44991E8F7B15009D20FA /* UIWebView+CancelShadow.m in Sources */,
 				01657EEC1E568CDC00254BDC /* main.m in Sources */,
+				016A44811E8F7B01009D20FA /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,6 +972,7 @@
 		};
 		01657F151E568CDC00254BDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8001E5C14BBCA37F16BEAA5D /* Pods-GDMeiTuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -787,6 +987,7 @@
 		};
 		01657F161E568CDC00254BDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22E91F025DE837841497FDF /* Pods-GDMeiTuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
